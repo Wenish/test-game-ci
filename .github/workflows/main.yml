@@ -2,6 +2,8 @@ name: Build project
 
 on:
   push:
+    paths:
+      - game-client/**
     branches:
       - main
 
